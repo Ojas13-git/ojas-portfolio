@@ -5,22 +5,29 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Onward Academy & Edvi US',
+    description: 'Responsive landing pages with Next.js, Tailwind, Firebase. Dynamic SEO and cross-device optimization.',
+    link: 'https://onward.academy',
+    github: null,
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=2000',
+  },
+  {
     title: 'Jiffyscan v2',
-    description: 'Leading ERC4337 Block Explorer with optimized performance and UX. Improved crash-free sessions to 95% through server-side rendering and caching.',
+    description: 'ERC4337 block explorer. Improved crash-free sessions to 95% with SSR and caching.',
     link: 'https://v2.jiffyscan.xyz',
     github: null,
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=2832',
   },
   {
     title: 'EcoChef Food Recipe App',
-    description: 'Full-stack web app offering ingredient-centric recipe searches, powered by the MealDB API. Optimized API integrations, reducing response times by 20%.',
+    description: 'Full-stack recipe app with MealDB API. Ingredient-centric search and optimized API usage.',
     link: null,
     github: 'https://github.com/Ojas13-git/EcoChef-Food-Recipe-App',
     image: 'https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&q=80&w=2000',
   },
   {
     title: 'RealAve',
-    description: 'Full-stack Real Estate application with advanced property filtering, image carousels, and comprehensive property details.',
+    description: 'Real estate app with property filtering, image carousels, and detailed listings.',
     link: null,
     github: 'https://github.com/Ojas13-git/RealAve-Real-Estate-NextApp',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=2000',

@@ -1,13 +1,26 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Building2, Code, Rocket } from 'lucide-react';
+import { Building2, Code, GraduationCap, Rocket } from 'lucide-react';
 
 const experiences = [
   {
+    title: 'Software Development Engineer-1 (Frontend)',
+    company: 'Edvi',
+    period: '01/2025 - Present',
+    description: [
+      'Migrated internal forms from Appsmith to React-based forms',
+      'Built landing pages for Onward Academy and Edvi US (Next.js, Tailwind, Firebase)',
+      'Built real-time chat SDK for Classroom app (Matrix, React, Vite, Zustand)',
+      'Migrated Classroom and Admin apps to React 19 + MUI v5 + Vite; cut build time from 21 to 13 mins',
+      'Built internal Helpdesk with Kanban board and published @edvi-tech/kanban-board library',
+    ],
+    icon: GraduationCap,
+  },
+  {
     title: 'Frontend Engineer',
     company: 'JiffyLabs',
-    period: '07/2024 - Present',
+    period: '07/2024 - 12/2024',
     description: [
       'Led development of scalable web interfaces for ERC4337 block explorer',
       'Improved crash-free sessions from 40% to 95%',

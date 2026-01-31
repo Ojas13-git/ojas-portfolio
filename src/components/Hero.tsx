@@ -28,7 +28,7 @@ export default function Hero() {
           </motion.div>
 
           <h1 className="text-6xl font-bold mb-6">
-            <span className="gradient-text">Frontend Engineer</span>
+            <span className="gradient-text">SDE-1 Frontend</span>
             <br />
             <span className="text-gray-900">&amp; Tech Enthusiast</span>
           </h1>
@@ -39,7 +39,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            From concept to component — I build it all. ⚙️🚀
+            Building scalable UIs with React, Next.js & TypeScript. From concept to component.
           </motion.p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -47,13 +47,13 @@ export default function Hero() {
               {
                 icon: Code2,
                 title: "Frontend Expertise",
-                description: "Specialized in React, Next.js, and modern web technologies",
+                description: "React, Next.js, TypeScript, Vite, Tailwind & modern tooling",
                 delay: 0.3,
               },
               {
                 icon: Briefcase,
                 title: "Professional Experience",
-                description: "Frontend Engineer at JiffyLabs & Freelance Developer",
+                description: "SDE-1 at Edvi · ex JiffyLabs · Freelance Developer",
                 delay: 0.4,
               },
               {
